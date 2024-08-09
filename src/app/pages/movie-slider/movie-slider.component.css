@@ -1,0 +1,32 @@
+.banner-slider {
+  z-index: 2; /* Set a higher z-index to push the slider above the navbar */
+}
+
+.carousel-caption {
+    padding: 20px 30px;
+    background-color: #181818ab;
+    border: 1px solid #ffffff5d;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+h2 {
+    color: #E50914;
+    font-weight: bold;
+    font-size: 30px;
+}
+p {
+    color: #ffffff;
+}
+
+.carousel-container {
+   margin-bottom: 70px; /*Adjust value based on your navbar height */
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel-caption {
+      display: block !important;
+    }
+}
